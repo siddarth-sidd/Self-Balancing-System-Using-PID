@@ -24,3 +24,13 @@ The Wooden parts are carefully measured and taken as the structure . ( 7cm width
 
 <p>The Schematic for the project is given below.</p>
 
+<img width="400" height="450" alt="WhatsApp Image 2026-05-23 at 12 54 55 PM" src="https://github.com/user-attachments/assets/55347ed1-71e8-4cbb-86bf-41c82fd837f6" />
+
+<p>Before jumping into main code MPU6050 should calibrated with calibration code. We need to put it has stable possible for correct values.</p>
+
+<p>After Calibrating the Sensor offsets , i put them in my main code and found the pitch angle when it's in stable position.(it can vary with structures)</p>
+
+<p>Through the pitch angle, KP,KD,KI should be varied accordingly.I started from KP first and then KD,KI.</p>
+
+<p>I have used DMP based process for it ,did not implemented any filters in the code. So, it's more like a trial and error process after setting up the pitch angle.</p>
+
